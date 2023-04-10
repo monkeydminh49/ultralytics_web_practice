@@ -1,0 +1,33 @@
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.column .left {
+    width: 25%;
+}
+
+.column .right {
+    width: 75%;
+}
+
+.page-nav-wrapper {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-header {
+    position: relative;
+    background-color: #353535;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    text-align: center;
+}
